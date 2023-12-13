@@ -1,37 +1,39 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Grid } from 'theme-ui';
+import { Container, Grid, Box, Image } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
+import BannerImg from 'assets/OurFootCareLogo.jpg';
+
 
 const data = [
   {
     id: 1,
     altText: 'Features of Our Arch Pad',
-    title: 'Features of Our Arch Pad',
+    title: 'Are you experiencing foot pain such as arch pain, heel pain, or aching tired feet?',
     text:
-      'Our Arch Pad helps the your arch pain',
+      'Our Arch Wing DIY inserts may help.',
   },
   {
     id: 2,
     altText: 'Get in Contact to try it out',
-    title: 'Get in Contact to try it out',
+    title: 'Not sure what to do first?',
     text:
-      'Reach out to us at OurFootCare@gmail.com',
+      "Because there are so many products on the market that are too expensive to try, especially if they don't work.",
   },
   {
     id: 3,
     altText: 'Learn about our Story',
-    title: 'Learn about our Story',
+    title: "Don't have health insurance and would like to see a doctor, but can't afford it?",
     text:
-      'We want to help people. That is why we have created this.',
+      'Try Our Arch Wing DIY kit first to see if it may help.',
   },
   {
     id: 4,
     altText: 'See what people have to say',
-    title: 'What people are Saying',
+    title: 'How do I Try Our Arch Wing Inserts',
     text:
-      'Our Arch Pad reduces pain and makes walking better.',
+      'Email us at OurFootcareProject@gmail.com with your story.',
   },
 ];
 
@@ -41,7 +43,7 @@ export default function KeyFeature() {
      <Container>
        <SectionHeader
         slogan="What's the buzz about Our Arch Pad?"
-        title="Meet Our Arch Pad"
+        title="Our Footcare Project"
        />
 
        <Grid sx={styles.grid}>
@@ -57,6 +59,12 @@ export default function KeyFeature() {
 
        </Grid>
      </Container>
+          <Box sx={styles.banner.imageBox}>
+          <Image src={BannerImg} alt='banner'/>
+          
+          
+
+        </Box>
 
    </section>
   );
@@ -82,5 +90,20 @@ const styles = {
       null,
       'repeat(4,1fr)',
     ],
+    
   },
+  banner: {
+  imageBox: {
+      justifyContent: 'center',
+      textAlign: 'center',
+      display: 'inline',
+      mb: [0, null, -6, null, null, '-40px', null, 1],
+      img: {
+        position: 'center',
+        height: [300, 'auto'],
+        width: [300, 'auto'],
+        aspectRatio: 1,
+      },
+    },
+  }
 };

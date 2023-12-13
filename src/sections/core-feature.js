@@ -11,7 +11,7 @@ const data = {
   description:
     'Suzann, an industry veteran, has spent years developing the Z-wing, a game changer for custom home orthotics.',
   btnName: 'Learn our story',
-  btnURL: '#',
+  btnURL: '#ourstory',
 };
 
 export default function CoreFeature() {

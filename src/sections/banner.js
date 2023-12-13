@@ -14,7 +14,7 @@ export default function Banner() {
             Our Footcare Project
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Check out our website to learn more about the revolutionary Our Arch Pad! If you have any questions, this is the place for answers! Change photo to logo
+            Purpose and Mission: To provide a low-cost arch support alternative for the treatment of foot pain due to overuse.
           </Text>
         </Box>
         <Box sx={styles.banner.imageBox}>
@@ -38,7 +38,7 @@ const styles = {
     '&::before': {
       position: 'absolute',
       content: '""',
-      bottom: 6,
+      bottom: 0,
       left: 0,
       height: '100%',
       width: '100%',
@@ -81,7 +81,8 @@ const styles = {
       mb: [0, null, -6, null, null, '-40px', null, 1],
       img: {
         position: 'relative',
-        height: [245, 'auto'],
+        height: [300],
+        width: [300, 'auto'],
         aspectRatio: 1,
       },
     },

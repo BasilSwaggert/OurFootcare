@@ -3,27 +3,27 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import FeatureCard from 'components/feature-card.js';
-import Performance from 'assets/feature/performance.svg';
-import Partnership from 'assets/feature/partnership.svg';
-import Subscription from 'assets/feature/subscription.svg';
-import Support from 'assets/feature/support.svg';
+import Performance from 'assets/feature/flip-forward-energy-svgrepo-com.svg';
+import Partnership from 'assets/feature/arch-svgrepo-com.svg';
+import Subscription from 'assets/feature/set-square-measure-svgrepo-com.svg';
+import Support from 'assets/feature/email-mail-svgrepo-com.svg';
 
 const data = [
   {
     id: 1,
     imgSrc: Performance,
     altText: 'Features of Our Arch Pad',
-    title: 'Features of Our Arch Pad',
+    title: 'Reversible',
     text:
-      'What does it do?',
+      "It's reversible - it can be used in either right or left shoe. IMPORTANT: Letters R/L faces upwards",
   },
   {
     id: 2,
     imgSrc: Partnership,
     altText: 'Get in Contact to Try It Out',
-    title: 'Get in Contact to Try It Out',
+    title: 'Reduce Arch Collapse',
     text:
-      'Reach out for samples to give it a try!',
+      'Our Arch Wing has a high instep flange for more keystone support, to reduce arch collapse.',
   },
   {
     id: 3,
@@ -31,13 +31,13 @@ const data = [
     altText: 'Learn about our Story',
     title: 'Our Story',
     text:
-      'Learn where the idea came from and how we got here.',
+      'The heel extension reaches the full length of the arch, thus allowing greater comfort through the day.',
   },
   {
     id: 4,
     imgSrc: Support,
     altText: 'What People are Saying',
-    title: 'Donations',
+    title: 'Contact Us',
     text:
       'Make a donation:',
   },
@@ -48,8 +48,8 @@ export default function Feature() {
    <section sx={{ variant: 'section.feature'}} id='pricing'>
      <Container>
        <SectionHeader
-        slogan="Innovative Orthotics"
-        title="Approachable Custom Orthotics"
+        slogan="Innovative Inserts"
+        title="Unique Features of Our Arch Wing Insert:"
        />
        <Grid sx={styles.grid}>
          {data.map((item) => (
@@ -58,7 +58,7 @@ export default function Feature() {
             src={item.imgSrc}
             alt={item.altText}
             title={item.title}
-            text={item.text}
+            text={renderTextWithBold(item.text)}
            />
          ))}
        </Grid>
@@ -66,6 +66,22 @@ export default function Feature() {
    </section>
   );
 }
+
+const renderTextWithBold = (text) => {
+  return (
+    <p>
+      {text.split('IMPORTANT:').map((part, index) => (
+        <React.Fragment key={index}>
+          {index === 0 ? (
+            part
+          ) : (
+            <strong key={index}>{part}</strong>
+          )}
+        </React.Fragment>
+      ))}
+    </p>
+  );
+};
 
 const styles = {
   grid: {
