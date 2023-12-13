@@ -24,7 +24,6 @@ export default function Layout({ children }) {
       <main id="content" sx={{ variant: 'layout.main', }} >
         {children}
       </main>
-      <Footer />
-    </React.Fragment>
+     </React.Fragment>
   );
 }

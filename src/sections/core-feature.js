@@ -6,10 +6,10 @@ import FeatureThumb from 'assets/core-feature.png';
 import shapePattern from 'assets/shape-pattern2.png';
 
 const data = {
-  subTitle: 'Meet the Founder',
-  title: 'Suzann Swaggert, Inventor of the Z-Wing',
-  description:
-    'Suzann, an industry veteran, has spent years developing the Z-wing, a game changer for custom home orthotics.',
+  subTitle: 'Meet the Founder of Our Footcare Project and the Inventor of Our Arch Wing Insert',
+  title: 'SuzAnn',
+  // description:
+  //   'Suzann, an industry veteran, has spent years developing the Z-wing, a game changer for custom home orthotics.',
   btnName: 'Learn our story',
   btnURL: '#ourstory',
 };

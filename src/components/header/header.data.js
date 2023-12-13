@@ -5,18 +5,18 @@ export default [
   },
   {
     path: 'feature',
-    label: 'Features',
+    label: 'Do your feet hurt?',
   },
   {
     path: 'pricing',
-    label: 'Pricing',
+    label: 'Features of Our Arch Wing',
+  },
+  {
+    path: 'workflow',
+    label: 'Installation Instructions',
   },
   {
     path: 'ourstory',
     label: 'Our Story',
   },
-  {
-    path: 'contactus',
-    label: 'Contact Us',
-  }
 ];

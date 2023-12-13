@@ -26,8 +26,7 @@ export default function IndexPage() {
           <WorkFlow />
           <br></br>
           <OurStory />
-          <ContactUsCard />
-        </Layout>
+         </Layout>
     </ThemeProvider>
   );
 }

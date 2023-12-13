@@ -31,7 +31,7 @@ const data = [
   {
     id: 4,
     altText: 'See what people have to say',
-    title: 'How do I Try Our Arch Wing Inserts',
+    title: 'How do I Try Our Arch Wing Inserts?',
     text:
       'Email us at OurFootcareProject@gmail.com with your story.',
   },
@@ -43,7 +43,7 @@ export default function KeyFeature() {
      <Container>
        <SectionHeader
         slogan="What's the buzz about Our Arch Pad?"
-        title="Our Footcare Project"
+        title="Do your feet hurt?"
        />
 
        <Grid sx={styles.grid}>

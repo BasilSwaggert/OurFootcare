@@ -29,7 +29,7 @@ const data = [
     id: 3,
     imgSrc: Subscription,
     altText: 'Learn about our Story',
-    title: 'Our Story',
+    title: 'Greater Comfort',
     text:
       'The heel extension reaches the full length of the arch, thus allowing greater comfort through the day.',
   },
@@ -39,7 +39,7 @@ const data = [
     altText: 'What People are Saying',
     title: 'Contact Us',
     text:
-      'Make a donation:',
+      'Let us know your story at OurFootcareProject@gmail.com',
   },
 ];
 

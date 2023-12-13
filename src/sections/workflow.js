@@ -10,37 +10,37 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'First Step',
+    title: 'First Step:',
     text:
-      'First Step.',
+      "Bend the Our Arch Wing Insert on the fold line to resemble a taco.",
   },
   {
     id: 2,
-    title: 'Second Step',
+    title: 'Second Step:',
     text:
-      'Second Step.',
+      "Place Insert in the shoe along the inside wall. The Insert should be folded up along-side the wall. The indicating letter R/L should be facing upwards.",
   },
   {
     id: 3,
-    title: 'Third Step',
+    title: 'Third Step:',
     text:
-      'Third Step.',
+      'Use the insole material provided to add more cushioning inside of the shoe, but the included insole is not required.',
   },
   {
     id: 4,
-    title: 'If you are having trouble installing the Z-Wing:',
+    title: 'How it should look:',
     text:
-      'Reach out to us at: djslfdsldf@gmail',
+      'DEV NOTE: ADD PHOTOS',
   },
 ];
 
 export default function WorkFlow() {
   return (
-    <section sx={styles.workflow}>
+    <section sx={styles.workflow} id="workflow">
       <Container>
         <SectionHeader
-          slogan="HOW DOES IT WORK?: Workflow Section"
-          title="Meet the in-home custom orthotic revolution"
+          slogan="How to install the Our Arch Wing Insert:"
+          title="Installation in three easy steps"
           isWhite={true}
         />
 
