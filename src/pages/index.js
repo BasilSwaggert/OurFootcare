@@ -10,7 +10,7 @@ import Feature from '../sections/feature';
 import CoreFeature from '../sections/core-feature';
 import WorkFlow from '../sections/workflow';
 import OurStory from '../sections/our-story';
-import TestimonialCard from '../sections/testimonial';
+import ContactUsCard from '../sections/contact-us';
 
 export default function IndexPage() {
   return (
@@ -26,7 +26,7 @@ export default function IndexPage() {
           <WorkFlow />
           <br></br>
           <OurStory />
-          <TestimonialCard />
+          <ContactUsCard />
         </Layout>
     </ThemeProvider>
   );

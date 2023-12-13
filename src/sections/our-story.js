@@ -5,7 +5,7 @@ import TextFeature from "components/text-feature";
 
 export default function Banner() {
   return (
-    <section sx={styles.banner} id="home">
+    <section sx={styles.banner} id="ourstory">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">

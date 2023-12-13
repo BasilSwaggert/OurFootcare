@@ -7,10 +7,10 @@ import FeatureCardColumn from 'components/feature-card-column.js';
 const data = [
   {
     id: 1,
-    altText: 'Features of the Z-Wing',
-    title: 'Features of the Z-Wing',
+    altText: 'Features of Our Arch Pad',
+    title: 'Features of Our Arch Pad',
     text:
-      'The Z-Wing helps the your arch',
+      'Our Arch Pad helps the your arch pain',
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const data = [
     altText: 'See what people have to say',
     title: 'What people are Saying',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Our Arch Pad reduces pain and makes walking better.',
   },
 ];
 
@@ -40,8 +40,8 @@ export default function KeyFeature() {
    <section sx={{ variant: 'section.KeyFeature'}} id="feature">
      <Container>
        <SectionHeader
-        slogan="What's the buzz about the Z-Wing?"
-        title="Meet the orthotic revolution"
+        slogan="What's the buzz about Our Arch Pad?"
+        title="Meet Our Arch Pad"
        />
 
        <Grid sx={styles.grid}>

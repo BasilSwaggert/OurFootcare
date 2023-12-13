@@ -28,9 +28,9 @@ const data = [
   },
   {
     id: 4,
-    title: 'Fourth Step',
+    title: 'If you are having trouble installing the Z-Wing:',
     text:
-      'Fourth Step.',
+      'Reach out to us at: djslfdsldf@gmail',
   },
 ];
 

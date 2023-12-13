@@ -12,10 +12,10 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Features of the Z-Wing',
-    title: 'Features of the Z-Wing',
+    altText: 'Features of Our Arch Pad',
+    title: 'Features of Our Arch Pad',
     text:
-      'This is what we are made of.',
+      'What does it do?',
   },
   {
     id: 2,
@@ -37,15 +37,15 @@ const data = [
     id: 4,
     imgSrc: Support,
     altText: 'What People are Saying',
-    title: 'What People are Saying',
+    title: 'Donations',
     text:
-      'See what real professionals and users have to say about our product!',
+      'Make a donation:',
   },
 ];
 
 export default function Feature() {
   return (
-   <section sx={{ variant: 'section.feature'}}>
+   <section sx={{ variant: 'section.feature'}} id='pricing'>
      <Container>
        <SectionHeader
         slogan="Innovative Orthotics"

@@ -12,7 +12,11 @@ export default [
     label: 'Pricing',
   },
   {
-    path: 'testimonial',
-    label: 'Testimonial',
+    path: 'ourstory',
+    label: 'Our Story',
   },
+  {
+    path: 'contactus',
+    label: 'Contact Us',
+  }
 ];

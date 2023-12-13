@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import BannerImg from 'assets/banner-thumb.png';
+import BannerImg from 'assets/OurFootCareLogo.jpg';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
@@ -14,12 +14,12 @@ export default function Banner() {
             Our Footcare Project
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Check out our website to learn more about the revolutionary Our Arch Pad! If you have any questions, this is the place for answers!
+            Check out our website to learn more about the revolutionary Our Arch Pad! If you have any questions, this is the place for answers! Change photo to logo
           </Text>
-          <Button variant="secondary">Explore</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt='banner'/>
+          
           
 
         </Box>
@@ -77,11 +77,12 @@ const styles = {
     imageBox: {
       justifyContent: 'center',
       textAlign: 'center',
-      display: 'inline-flex',
+      display: 'inline',
       mb: [0, null, -6, null, null, '-40px', null, 1],
       img: {
         position: 'relative',
         height: [245, 'auto'],
+        aspectRatio: 1,
       },
     },
   },
