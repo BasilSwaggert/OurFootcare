@@ -42,8 +42,8 @@ export default function KeyFeature() {
    <section sx={{ variant: 'section.KeyFeature'}} id="feature">
      <Container>
        <SectionHeader
-        slogan="What's the buzz about Our Arch Pad?"
-        title="Do your feet hurt?"
+        // slogan="What's the buzz about Our Arch Pad?"
+        // title="Do your feet hurt?"
        />
 
        <Grid sx={styles.grid}>
