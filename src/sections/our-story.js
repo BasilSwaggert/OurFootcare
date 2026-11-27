@@ -35,7 +35,7 @@ const data = {
   subTitle: "Introduction",
   title: "My interest in helping people walk goes back to my childhood.",
   description: (
-    <text>
+    <div>
       In 2015 after 26 years of working in the field of Orthotics and
       Prosthetics, I was feeling overworked and stressed. I was seeing patients
       to address their orthotic needs all hours of the day and night. It was a
@@ -157,7 +157,7 @@ const data = {
       <br></br>
       <strong>Experience #2: The Long Walk</strong>
       <br></br>
-      My next case was a brief encounter but it had a lasting affect. I don’t
+      My next case was a brief encounter but I had a lasting affect. I don’t
       remember her name or her face but I do remember her feet. It was going to
       be another hot day in the 90’s. At the time I was working in the inner
       city. This was our first appointment together so I would need to do a full
@@ -323,7 +323,7 @@ const data = {
       tips and tutorials my web site will guide you through do it yourself
       techniques to make you more comfortable and hopefully relieve your foot
       pain. I have found my art again, and that makes me very happy.
-    </text>
+    </div>
   ),
 };
 

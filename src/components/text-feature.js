@@ -20,9 +20,9 @@ export default function TextFeature({
       </Box>
 
       {description && (
-        <Text as="p" className="description" sx={styles.description}>
+        <Box as="div" className="description" sx={styles.description}>
           {description}
-        </Text>
+        </Box>
       )}
 
       {btnName && (
