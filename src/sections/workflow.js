@@ -30,7 +30,7 @@ const data = [
     id: 4,
     title: 'How it should look:',
     text:
-      'DEV NOTE: ADD PHOTOS',
+      'The Insert should sit flush in your shoe.',
   },
 ];
 

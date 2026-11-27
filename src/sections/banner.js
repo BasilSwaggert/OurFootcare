@@ -14,11 +14,11 @@ export default function Banner() {
             Our Footcare Project
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Purpose and Mission: To provide a low-cost arch support alternative for the treatment of foot pain due to overuse.
+            Purpose and Mission: To address the footcare necessities for people in the community with limited or no health insurance by providing a low-cost shoe insert designed to add arch support and comfort for individuals experiencing foot discomfort associated with overuse.
           </Text>
         </Box>
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt='banner'/>
+          {/* <Image src={BannerImg} alt='banner'/> */}
           
           
 
