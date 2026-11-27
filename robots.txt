@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ourfootcare.org
+
+# Sitemaps
+Sitemap: https://ourfootcare.org/sitemap.xml
